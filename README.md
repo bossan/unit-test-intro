@@ -8,5 +8,5 @@ php -S localhost:8888
 
 Run PHPUnit tests
 ```bash
-./vendor/bin/phpunit --testdox tests
+./vendor/bin/phpunit --testdox test
 ```
