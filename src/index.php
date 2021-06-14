@@ -56,61 +56,61 @@
                     $outcome = check_result($result, $expect);
                     print_result($date, $left, $right, $expect, $result, $outcome);
 
-//                    // Test 2
-//                    // Arrange
-//                    $date = "2021-04-01";
-//                    $left = "2021-05-01";
-//                    $right = "2021-05-03";
-//
-//                    // Act
-//                    $result = is_between($date, $left, $right);
-//
-//                    // Assert
-//                    $expect = false;
-//                    $outcome = check_result($result, $expect);
-//                    print_result($date, $left, $right, $expect, $result, $outcome);
-//
-//                    // Test 3
-//                    // Arrange
-//                    $date = "2021-06-01";
-//                    $left = "2021-05-01";
-//                    $right = "2021-05-03";
-//
-//                    // Act
-//                    $result = is_between($date, $left, $right);
-//
-//                    // Assert
-//                    $expect = false;
-//                    $outcome = check_result($result, $expect);
-//                    print_result($date, $left, $right, $expect, $result, $outcome);
-//
-//                    // Test 4
-//                    // Arrange
-//                    $date = "2021-01-01T10:00:00";
-//                    $left = "2021-01-01T09:00:00";
-//                    $right = "2021-01-01T11:00:00";
-//
-//                    // Act
-//                    $result = is_between($date, $left, $right);
-//
-//                    // Assert
-//                    $expect = true;
-//                    $outcome = check_result($result, $expect);
-//                    print_result($date, $left, $right, $expect, $result, $outcome);
-//
-//                    // Test 5
-//                    // Arrange
-//                    $date = "2021-01-01";
-//                    $left = "2021-01-01";
-//                    $right = "2021-01-02";
-//
-//                    // Act
-//                    $result = is_between($date, $left, $right);
-//
-//                    // Assert
-//                    $expect = true;
-//                    $outcome = check_result($result, $expect);
-//                    print_result($date, $left, $right, $expect, $result, $outcome);
+                    // Test 2
+                    // Arrange
+                    $date = "2021-04-01";
+                    $left = "2021-05-01";
+                    $right = "2021-05-03";
+
+                    // Act
+                    $result = is_between($date, $left, $right);
+
+                    // Assert
+                    $expect = false;
+                    $outcome = check_result($result, $expect);
+                    print_result($date, $left, $right, $expect, $result, $outcome);
+
+                    // Test 3
+                    // Arrange
+                    $date = "2021-06-01";
+                    $left = "2021-05-01";
+                    $right = "2021-05-03";
+
+                    // Act
+                    $result = is_between($date, $left, $right);
+
+                    // Assert
+                    $expect = false;
+                    $outcome = check_result($result, $expect);
+                    print_result($date, $left, $right, $expect, $result, $outcome);
+
+                    // Test 4
+                    // Arrange
+                    $date = "2021-01-01T10:00:00";
+                    $left = "2021-01-01T09:00:00";
+                    $right = "2021-01-01T11:00:00";
+
+                    // Act
+                    $result = is_between($date, $left, $right);
+
+                    // Assert
+                    $expect = true;
+                    $outcome = check_result($result, $expect);
+                    print_result($date, $left, $right, $expect, $result, $outcome);
+
+                    // Test 5
+                    // Arrange
+                    $date = "2021-01-01";
+                    $left = "2021-01-01";
+                    $right = "2021-01-02";
+
+                    // Act
+                    $result = is_between($date, $left, $right);
+
+                    // Assert
+                    $expect = true;
+                    $outcome = check_result($result, $expect);
+                    print_result($date, $left, $right, $expect, $result, $outcome);
                 ?>
             </tbody>
         </table>
