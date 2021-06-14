@@ -1,4 +1,5 @@
 # Unit testing intro
+[![CI](https://github.com/bossan/unit-test-intro/actions/workflows/ci.yml/badge.svg?branch=master&event=push)](https://github.com/bossan/unit-test-intro/actions/workflows/ci.yml)
 
 Show tests in web page
 ```bash
